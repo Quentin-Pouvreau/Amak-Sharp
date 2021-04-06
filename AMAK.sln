@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMAK", "AMAK\AMAK.csproj", "{89E0D043-0DB3-45F4-99E7-FAF0A27629A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Philosophers", "Philosophers\Philosophers.csproj", "{83A792AF-11BD-45FA-B721-055714E1A84A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89E0D043-0DB3-45F4-99E7-FAF0A27629A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E0D043-0DB3-45F4-99E7-FAF0A27629A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E0D043-0DB3-45F4-99E7-FAF0A27629A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E0D043-0DB3-45F4-99E7-FAF0A27629A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A792AF-11BD-45FA-B721-055714E1A84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A792AF-11BD-45FA-B721-055714E1A84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A792AF-11BD-45FA-B721-055714E1A84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A792AF-11BD-45FA-B721-055714E1A84A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {226812A0-AF28-4747-A544-9EB5E270E3CC}
+	EndGlobalSection
+EndGlobal

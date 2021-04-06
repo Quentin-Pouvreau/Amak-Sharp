@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AMAK.Agent&lt;E&gt;">
+    <Position X="3.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACgCASAAAqCAYgQACUIgAQIKAAAEAAAAEEBggAAAUAI=</HashCode>
+      <FileName>Agent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currentPhase" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AMAK.Amas&lt;E&gt;">
+    <Position X="7" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAACIIUBACAAQCQAAAAyAAhkAAQAgIQIkBAA=</HashCode>
+      <FileName>Amas.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="executionPolicy" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="agents" />
+      <Field Name="agentsPendingAddition" />
+      <Field Name="agentsPendingRemoval" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AMAK.Environment">
+    <Position X="10.25" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAECAIABAAAAAAAAAAAAARAAAAAAAIAAEAAA=</HashCode>
+      <FileName>Environment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AMAK.Schedulable">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAIABAAAAAAAAAAAAAAABAAQAAIAAAAAA=</HashCode>
+      <FileName>Schedulable.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="scheduler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AMAK.Scheduler">
+    <Position X="13" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>hAIQIAAAQCIBIAAAAIAARAAAACAAAAAEIEAEAAAAAAI=</HashCode>
+      <FileName>Scheduler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="state" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="schedulables" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="AMAK.AgentPhases">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAIAAAAAAABAAAAAAAAAAAEAAACAAAA=</HashCode>
+      <FileName>AgentPhases.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AMAK.ExecutionPolicies">
+    <Position X="10.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>ExecutionPolicies.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AMAK.SchedulingStates">
+    <Position X="17" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Scheduling.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
